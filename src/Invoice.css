@@ -1,0 +1,102 @@
+.invoice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.invoice__innerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100vh;
+}
+
+.invoice__innerContainer__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: aqua;
+}
+
+.invoice__innerContainer__header__infoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.invoice__innerContainer__subheader{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 100%;
+}
+
+.invoice__innerContainer__subheader__leftContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.invoice__innerContainer__subheader__rightContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.invoice__innerContainer__invoiceContainer{
+    /* display: flex; */
+    flex-direction: column;
+    width: 100%;
+    flex: 1
+}
+
+.invoice__innerContainer__invoiceHeader{
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: left;
+    width: 100%;
+}
+
+.invoice__innerContainer__invoiceItems{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+}
+
+.invoice__innerContainer__columnPrice{
+    text-align: right;
+    width: 100px;
+}
+
+.invoice__innerContainer__columnItem{
+    width: 100px;
+    text-align: left;
+}
+
+.invoice__innerContainer__columnQuantity{
+    width: 100px;
+    text-align: right;
+}
+.invoice__innerContainer__columnDescription{
+    width: 600px;
+    text-align: left;
+}
+
+.invoice__innerContainer__columnSubtotal{
+    width: 100px;
+    text-align: right;
+}
+
+.invoice__innerContainer__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: aqua;
+    min-height: 100px;
+}
+
+
